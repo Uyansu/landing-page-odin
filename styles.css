@@ -129,7 +129,6 @@ main {
     align-items: center;
     justify-content: space-around;
     height: 25vh;
-    outline: 1px solid red;
 }
 
 .h1-main-cards {
@@ -162,7 +161,62 @@ main {
 }
 
 .main-text { 
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 23vh;
+    background-color: #E5E7EB;
+}
+
+.main-quote {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+
+.quote-name {
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+.main-signup {
+    height: 19vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    width: 60vw;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.signup-p {
+    font-weight: 800;
+    font-size: 20px;
+}
+.signup-container button {
+    background-color: transparent;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    cursor: pointer;
 }
 
 footer { 
