@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -112,4 +113,65 @@ a {
 
 .header-right p {
     color: snow;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-cards {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-items: center;
+    justify-content: space-around;
+    height: 25vh;
+    outline: 1px solid red;
+}
+
+.h1-main-cards {
+    font-size: 36px;
+    font-weight: 900 ;
+    color: #1F2937;
+}
+
+.cards-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 5px;
+}
+
+.cards div {
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+    height: 140px;
+}
+
+.cards p {
+    text-align: center;
+}
+
+.main-text { 
+    
+}
+
+footer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 5vh;
+    width: 100vw;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
